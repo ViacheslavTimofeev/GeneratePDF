@@ -2,9 +2,12 @@ import zipfile
 from docxtpl import DocxTemplate
 from docx2pdf import convert
 import codecs
-Date1 = 12.01
-Date2 = 13.01
+Date1 = 15.01
+Date2 = 22.01
 Olympiad = "Городская олимпиада по математике"
+
+
+
 
 z = zipfile.ZipFile('zipfile.zip', 'w')
 f = codecs.open('Data.txt', 'r', "utf_8_sig")
